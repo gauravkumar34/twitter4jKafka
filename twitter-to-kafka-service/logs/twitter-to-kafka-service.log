@@ -1,0 +1,79 @@
+2021-10-28 04:00:24 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.13 on Gauravs-Air with PID 17640 (/Users/gaurav/Desktop/Work/LEARN SPRING/microservices-demo/twitter-to-kafka-service/target/classes started by gaurav in /Users/gaurav/Desktop/Work/LEARN SPRING/microservices-demo)
+2021-10-28 04:00:24 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-10-28 04:00:26 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 2.649 seconds (JVM running for 4.107)
+2021-10-28 04:00:26 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - App starts...
+2021-10-28 04:00:26 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2021-10-28 04:00:26 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Hello microservices!
+2021-10-28 04:00:26 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-10-28 04:00:26 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Started filtering twitter stream for keywords [Java, Microservices, Kafka, Elasticsearch]
+2021-10-28 04:00:30 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2021-10-28 04:00:30 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2021-10-28 04:00:30 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Be the Minecraft expert in your friend group 👇
+2021-10-28 04:00:31 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @PDH_SciTechNews: #Gaming The Biggest Gaming News For October 27, 2021 - TheGamer https://t.co/UUvWywm4Fg >> #playstation #nintendo #xbo…
+2021-10-28 04:00:38 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text @topriddy For sure. You can basically use the language to teach different aspects of CS. Starting with the simplest concepts and advanced without having to include everything from start. E.g Try to teach intro to procedural programming in Java without having to include classes 😞
+2021-10-28 04:01:00 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @JaySGlenview: Jay Sawyer Chicago in SoundCloud
+https://t.co/ci62hBuQZc
+#programmingwithmosh #deved #webdevelopement #webdesign #program…
+2021-10-28 04:01:05 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @JaySGlenview: Jay Sawyer Chicago in SoundCloud
+https://t.co/ci62hBuQZc
+#programmingwithmosh #deved #webdevelopement #webdesign #program…
+2021-10-28 04:01:13 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Minecraft: Confused about the difference between Java and Bedrock? Too afraid to ask, at this point? We’ve got you covered! 
+
+From snap…
+2021-10-28 04:01:17 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @PDH_SciTechNews: #Gaming The Biggest Gaming News For October 27, 2021 - TheGamer https://t.co/UUvWywm4Fg >> #playstation #nintendo #xbo…
+2021-10-28 04:01:17 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @byLilyV: #FEATURED #COURSES
+
+#Java #Programming Masterclass for #Software #Developers
+
+Learn Java In This #Course And Become a #Compute…
+2021-10-28 04:01:28 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @JaySGlenview: Jay Sawyer Chicago in SoundCloud
+https://t.co/ci62hBuQZc
+#programmingwithmosh #deved #webdevelopement #webdesign #program…
+2021-10-28 04:01:33 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @cursortek: Checkout CursorTek is doing #webscraping and #selling #bulk #data of #businesses #Profiles
+
+#tripadvisor #booking #yelp #yel…
+2021-10-28 04:01:39 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @XboxGamePassPC: Be the Minecraft expert in your friend group 👇
+2021-10-28 04:01:44 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text O Castelo, Kafka: https://t.co/1Is8UOBRJQ
+2021-10-28 04:01:49 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @PDH_SciTechNews: #Gaming The Biggest Gaming News For October 27, 2021 - TheGamer https://t.co/UUvWywm4Fg >> #playstation #nintendo #xbo…
+2021-10-28 04:01:54 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @XboxGamePassPC: Be the Minecraft expert in your friend group 👇
+2021-10-28 04:01:57 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @lerin73075392: Ryan vcs terbaru bantu sebarkan/viralkan sampai crot. java barat(bogor) https://t.co/aQVotzFxYA
+2021-10-28 04:02:10 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Udemy_Coupons1: .Net Apps on Azure Virtual Machine Windows & Linux | Docker https://t.co/UWAJllf0IP
+
+#MachineLearning. #BigData #Analyt…
+2021-10-28 04:02:15 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Udemy_Coupons1: .Net Apps on Azure Virtual Machine Windows & Linux | Docker https://t.co/UWAJllf0IP
+
+#MachineLearning. #BigData #Analyt…
+2021-10-28 04:02:18 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @ararage_kun: Ya voy a poner en donde tenga mi CV que "No acepto ofertas de Softek y mucho menos de Java"
+2021-10-28 04:02:24 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @gabrielguerrac: El señor que operó/justificó la caída del sistema en 1988 criticando el amasiato de quienes le ordenaron tirar el siste…
+2021-10-28 04:02:26 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Minecraft: Confused about the difference between Java and Bedrock? Too afraid to ask, at this point? We’ve got you covered! 
+
+From snap…
+2021-10-28 04:02:28 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @Udemy_Coupons1: .Net Apps on Azure Virtual Machine Windows & Linux | Docker https://t.co/UWAJllf0IP
+
+#MachineLearning. #BigData #Analyt…
+2021-10-28 04:02:30 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Chilling Live on Twitch
+Lavender Fields
+
+https://t.co/87HgckVGCf
+
+#Minecraft #TTV #TwitchTV #Twitch #Anime #Weeb #UwU #Streamer #Gaming #Gamer #Videogames #MinecraftMemes #SmallStreamerCommunity #SmallStreamersConnect #Livestream #PS5 #StateofPlay #Java #Gameplay #Casual
+2021-10-28 04:02:33 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @tyorikan: Cloud Run についてブログ書きました。マイクロサービスに限った話でもないですけど、使う際の勘所についてまとめてみましたので、ぜひご覧ください〜
+#gcpja #cloudrun #microservices #eventarc
+https:/…
+2021-10-28 04:02:35 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @oNote_SW: Join us if you use @confluentinc or @apachekafka or @ApacheAvro this training will teach you and your developers how Event Mo…
+2021-10-28 04:02:39 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @LordFutures: Basically Hyperledger Fabric is a private blockchain known for it’s key feature of creating subnets, called channels. Most…
+2021-10-28 04:02:42 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text RT @PDH_SciTechNews: #Gaming The Biggest Gaming News For October 27, 2021 - TheGamer https://t.co/UUvWywm4Fg >> #playstation #nintendo #xbo…
+2021-10-28 04:02:49 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text Eerste aanmeldingen zijn al binnen voor het onbewoonde eiland.
+1 Willem Engel
+2 Kafka
+3 Eline
+4 Jan Huzen
+5 Tinus Koops
+6 revrouwlutie
+7 Mita Overvliet
+8 Opa Leo
+9 Wesley Wiltschut
+10 Max
+11 Albert Zantbergen
+12 .................. https://t.co/xH4NjQiusS
+2021-10-28 04:02:54 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - Closing twitter stream!
